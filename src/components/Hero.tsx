@@ -56,7 +56,7 @@ const Hero = () => {
               <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-gold rounded-full opacity-20 blur-3xl"></div>
               <div className="relative bg-white shadow-2xl rounded-2xl overflow-hidden border border-lightGray">
                 <img 
-                  src="/lovable-uploads/78799f71-f844-4e5e-99ce-a8148350c215.png" 
+                  src={import.meta.env.BASE_URL + "lovable-uploads/78799f71-f844-4e5e-99ce-a8148350c215.png"} 
                   alt="Empreendimento residencial" 
                   className="w-full h-80 object-cover"
                 />
